@@ -36,6 +36,8 @@ Run `node index.js` from within the file's directory. This allows the server to 
   1. Pokemon ID
   2. Link tag with Pokemon name that links to `/pokemon/:pokemon_id`
 
+  ---- 
+
 2. `GET` `/pokemon/:pokemon_id`
 
   Displays an HTML page with a table of all the Pokemon's data in two columns: 
