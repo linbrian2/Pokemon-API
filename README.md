@@ -17,9 +17,13 @@ These files are included:
 - `poke.json`: A `json` file containing all Generation 1 Pokemon data.
 - `poke-data-util.js`: Contains three utility functions for convenience. 
 
-Install node.js from their website to enable the `node index.js` command later.
+Install node.js from their website. This enables the `node index.js` command to be usable after setup.
 
-Install underscore by running `npm install underscore --save` from npm.
+Run `npm install express --save`. 
+
+Run `npm install body-parser --save`.
+
+Run `npm install underscore --save`.
 
 You are now ready to use the API!
 
