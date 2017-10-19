@@ -6,7 +6,7 @@ In this project, I implemented a website that allows to you visually explore Pok
 
 ## Objectives
 
-This project used Express.js to create both a website and API. JSON parsing was used to help implement the API. 
+This project used Express.js to create both an API and a website. JSON parsing was used to help implement the API. 
 
 ## Setup 
 
