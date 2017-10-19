@@ -17,7 +17,7 @@ These files are included:
 - `poke.json`: A `json` file containing all Generation 1 Pokemon data.
 - `poke-data-util.js`: Contains three utility functions for convenience. 
 
-Install node.js from their website. This enables the `node index.js` command to be usable after setup. From the command prompt:
+Install Node.js from their website. This enables the `node index.js` command to be usable after setup. From the command prompt:
 
 1. Run `npm install express --save`. 
 
