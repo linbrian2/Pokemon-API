@@ -4,9 +4,9 @@
 
 In this project, I implemented a website that allows to you visually explore Pokemon, and an API that will allow you to query different Pokemon. Simply follow the setup steps, and you will be able to use the command prompt to run `node index.js` from within the file's directory. This allows the server to listen in on requests. The different requests can be found below.
 
-## Objectives
+## Implementation
 
-This project used Express.js to create both an API and a website. JSON parsing was used to help implement the API. 
+In this project, I used Express.js to create both an API and a website. JSON parsing was used to help implement the API. 
 
 ## Setup 
 
