@@ -15,15 +15,17 @@ In this project, I used Express.js to create both an API and a website. JSON par
 
 ## Setup 
 
-Download and install node.js from: `https://nodejs.org/en/`
+Download and install Node.js from: `https://nodejs.org/en/`
 
-Clone this project folder and run `npm install` inside the directory. I prefer doing this by opening the command prompt and navigating to the folder.
+Clone this repository and navigate to the directory. As a Windows user, I prefer doing this by opening the command prompt and navigating to the project folder.
 
-From the command prompt:
+From the command prompt install the dependencies:
 
-1. Run `npm install express`. 
+1. run `npm install`
 
-2. Run `npm install underscore`.
+2. Run `npm install express`. 
+
+3. Run `npm install underscore`.
 
 You are now ready to use the API!
 
