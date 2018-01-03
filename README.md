@@ -2,7 +2,12 @@
 
 ## Overview
 
-In this project, I implemented a website that allows to you visually explore Pokemon, and an API that will allow you to query different Pokemon. Simply follow the setup steps, and you will be able to use the command prompt to run `node index.js` from within the file's directory. This allows the server to listen in on requests. The different requests can be found below.
+In this project, I implemented a website that allows to you visually explore Pokemon and their different properties. You can request information from my API, which allows you to query different information. Simply follow the setup steps, and you'll be good to go. 
+
+These files are included:
+- `index.js`: A skeleton of a working server that has Express.js required and initialized, middleware initialized, and the server listening on port `3000`.
+- `poke.json`: A `json` file containing all Generation 1 Pokemon data.
+- `poke-data-util.js`: Three utility functions to help for testing. 
 
 ## Implementation
 
@@ -10,28 +15,21 @@ In this project, I used Express.js to create both an API and a website. JSON par
 
 ## Setup 
 
-Clone this project folder and run `npm install` inside the directory. 
+Download and install node.js from: `https://nodejs.org/en/`
 
-These files are included:
-- `index.js`: A skeleton of a working server that has Express.js required and initialized, middleware initialized, and the server listening on port `3000`.
-- `poke.json`: A `json` file containing all Generation 1 Pokemon data.
-- `poke-data-util.js`: Contains three utility functions for convenience. 
+Clone this project folder and run `npm install` inside the directory. I prefer doing this by opening the command prompt and navigating to the folder.
 
-Install Node.js from their website. This enables the `node index.js` command to be usable after setup. From the command prompt:
+From the command prompt:
 
-1. Run `npm install express --save`. 
+1. Run `npm install express`. 
 
-2. Run `npm install body-parser --save`.
-
-3. Run `npm install underscore --save`.
+2. Run `npm install underscore`.
 
 You are now ready to use the API!
 
 ## Requests 
 
-Run `node index.js` from within the file's directory. This allows the server to listen on port `3000`. Go to your web browser and enter into the URL bar `http://localhost:3000/`. This is the home location, which allows you to navigate the website. You should append to the URL the following GET requests with fields like `/:pokemon_name` being replaced by `/Pikachu`. The non-GET requests should require an application like Postman to see though.
-
-It should be noted that invalid requests generally lead to an empty array being returned, or simply nothing happening.
+Run `node index.js` from within the file's directory. This allows the server to listen on port `3000`. Go to your web browser and enter into the URL bar `http://localhost:3000/`. This is the home location, which allows you to navigate the website. You should append to the URL the following GET requests with fields like `/:pokemon_name` being replaced by `/Pikachu` to receive requests from the API. However, the non-GET requests require an application like Postman to access the API.
 
 ---- 
 
