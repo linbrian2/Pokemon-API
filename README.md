@@ -25,11 +25,11 @@ From the command prompt install the required dependencies:
 2. Run `npm install express`. 
 3. Run `npm install underscore`.
 
-You are now ready to explore the website and use the API! Use the command `node index.js`. It will listen on port 3000. You can visit the website by going to your internet browser, and going to the domain "localhost:3000". Use Ctrl-C to terminate the process.
+You are now ready to explore the website and use the API!
 
 ## Requests 
 
-Run `node index.js` from within the file's directory. This allows the server to listen on port `3000`. Go to your web browser and enter into the URL bar `http://localhost:3000/`. This is the home location, which allows you to navigate the website. You should append to the URL the following GET requests with fields like `/:pokemon_name` being replaced by `/Pikachu` to receive requests from the API. However, the non-GET requests require an application like Postman to access the API.
+Run `node index.js` from within the file's directory. This allows the server to listen on port `3000`. Go to your web browser and enter into the URL bar `http://localhost:3000/`. This is the home location, which allows you to navigate the website. You should append to the URL the following GET requests with fields like `/:pokemon_name` being replaced by `/Pikachu` to receive requests from the API. However, the non-GET requests require an application like Postman to access the API. Use Ctrl-C to terminate the process.
 
 ---- 
 
